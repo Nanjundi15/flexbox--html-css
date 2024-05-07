@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid rgb(249, 244, 244);
+    color: black;
+    align-items: center;
+}
+#container{
+    width: 1000px;
+    height: 400px;
+    display: flex ;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    border: 2px solid rgb(8, 8, 8);
+    
+    
+    
+}
+#box1{
+    background-color: aquamarine;
+    
+    background-image: url("n.jpg");
+    background-size: cover;
+
+   
+
+}
+#box2{
+    background-color: aqua;
+    background-image: url("72499542-single-abc-letter-symbol-isolated.jpg");
+    background-size: cover;
+    
+}
+#box3{
+    background-color: bisque;
+   
+    background-image: url("n.jpg");
+    background-size: cover;
+}
+#box4{
+    background-color: azure;
+    background-image: url("download.jpeg");
+    background-size: cover;
+    flex-shrink: 0.5;
+}
+#box5{
+    background-color:lightblue ;
+   
+    background-image: url("u.jpg");
+    background-size: cover;
+}
+#box6{
+    background-color: greenyellow;
+    
+    background-image: url("n.jpg");
+    background-size: cover;
+}
+#box7{
+    background-color: rgb(3, 255, 255);
+    background-image: url("download\ \(1\).jpeg");
+    background-size: cover;
+
+}
+#box8{
+    background-color:rgb(246, 207, 9) ;
+    
+    background-image: url("download\ \(2\).jpeg");
+    background-size: cover;
+    
+}
